@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <Resource id="ClinicDataSource" type="javax.sql.DataSource">#Thu Feb 25 09:26:27 EET 2016
+jdbcDriver=org.apache.derby.jdbc.ClientDriver
+password=app
+userName=app
+jdbcUrl=jdbc\:derby\://localhost\:1527/ClinicDB
+</Resource>
+  <Resource id="ClinicData" type="javax.sql.DataSource">#Thu Feb 25 09:31:48 EET 2016
+jdbcDriver=org.apache.derby.jdbc.ClientDriver
+password=app
+userName=app
+jdbcUrl=jdbc\:derby\://localhost\:1527/ClinicDB
+</Resource>
+</resources>

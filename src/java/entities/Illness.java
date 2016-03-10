@@ -100,10 +100,7 @@ public class Illness implements Serializable {
             return false;
         }
         Illness other = (Illness) object;
-        if (this.patientSet.size() == other.patientSet.size()) {
-            return true;
-        }
-        return false;
+        return this.patientSet.size() == other.patientSet.size();
     }
 
     @Override

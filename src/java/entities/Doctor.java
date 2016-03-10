@@ -112,10 +112,7 @@ public class Doctor implements Serializable {
             return false;
         }
         Doctor other = (Doctor) object;
-        if (this.patientSet.equals(other.patientSet)) {
-            return false;
-        }
-        return true;
+        return this.patientSet.size() != other.patientSet.size();
     }
 
     @Override

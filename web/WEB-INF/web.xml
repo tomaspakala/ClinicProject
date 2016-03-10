@@ -25,11 +25,11 @@
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>
     <data-source>
-        <name>java:app/env/ClinicData</name>
+        <name>java:app/env/ClinicSource</name>
         <class-name>org.apache.derby.jdbc.ClientXADataSource</class-name>
         <server-name>localhost</server-name>
         <port-number>1527</port-number>
-        <database-name>StudentsDB</database-name>
+        <database-name>ClinicDB</database-name>
         <user>APP</user>
         <password>APP</password>
         <property>
